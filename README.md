@@ -7,8 +7,6 @@ My training project of simple game in "Rock-Paper-Scissors"
 - Launch Screen
 - Icon
 - Code refactoring
-- Create version with View in SwiftUI
-
 
 ## License
 **MIT License**
