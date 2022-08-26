@@ -35,7 +35,7 @@ struct GameView: View {
             Text(statusLabel)
                 .font(.system(size: 28))
             Spacer()
-            HStack(spacing: 40) {
+            HStack(spacing: 20) {
                 Spacer()
                 if showingButtonRock {
                     Button("👊") {
