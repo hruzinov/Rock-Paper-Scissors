@@ -28,7 +28,7 @@ class ViewController: UIViewController {
         let userSignEmoji = (sender.titleLabel!.text)!
         // Compare emoji and sign, hide another buttons
         switch userSignEmoji {
-            case "👊":
+            case "✊":
                 userSign = .rock
                 userSignRock.isEnabled = false
                 userSignPaper.isHidden = true

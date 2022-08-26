@@ -4,7 +4,6 @@ My training project of simple game in "Rock-Paper-Scissors"
 
 ## ToDo
 
-- Launch Screen
 - Icon
 - Code refactoring
 

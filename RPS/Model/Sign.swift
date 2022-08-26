@@ -12,7 +12,7 @@ enum Sign {
     
     var emoji: String {
         switch self {
-        case .rock: return "👊"
+        case .rock: return "✊"
         case .paper: return "✋"
         case .scissors: return "✌️"
         case .none: return ""
