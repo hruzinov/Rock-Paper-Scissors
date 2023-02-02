@@ -38,7 +38,7 @@ struct GameView: View {
             HStack(spacing: 20) {
                 Spacer()
                 if showingButtonRock {
-                    Button("👊") {
+                    Button("✊") {
                         userSign = .rock
                         showingButtonPaper = false
                         showingButtonScissors = false
@@ -134,7 +134,7 @@ struct GameView: View {
     // Comparison players and computer coices
     func getPlay() {
         computerSignRand()
-        computerSignLabel = computerSign.emoji
+        computerSignLabel = computerSign.rawValue
         print("User selected \(userSign) and computer selected \(computerSign)")
         
         if computerSign == userSign { gameState = .draw; print("Draw") } else {

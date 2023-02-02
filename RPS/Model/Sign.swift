@@ -7,17 +7,11 @@
 
 import Foundation
 
-enum Sign {
-    case rock, paper, scissors, none
-    
-    var emoji: String {
-        switch self {
-        case .rock: return "👊"
-        case .paper: return "✋"
-        case .scissors: return "✌️"
-        case .none: return ""
-        }
-    }
+enum Sign: String {
+    case rock = "✊"
+    case paper = "✋"
+    case scissors = "✌️"
+    case none = ""
 }
 
 func randomSign() -> Sign {
