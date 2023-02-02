@@ -4,8 +4,8 @@ My training project of simple game in "Rock-Paper-Scissors"
 
 ## ToDo
 
-- Icon
 - Code refactoring
+- Launch progress bar
 
 ## License
 **MIT License**

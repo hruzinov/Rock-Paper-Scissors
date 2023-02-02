@@ -49,12 +49,12 @@ class ViewController: UIViewController {
         }
         // Get computer choice and show it
         computerSignRand()
-        computerSignLabel.text = computerSign.emoji
+        computerSignLabel.text = computerSign.rawValue
         print("User selected \(userSign) and computer selected \(computerSign)")
         getPlay()
     }
     
-    // Restart game button: show and enable all buttons and start new game
+    // Restart game button: show and enable all buttons, then start new game
     @IBAction func playAgain(_ sender: UIButton) {
         userSignRock.isEnabled = true
         userSignPaper.isEnabled = true
