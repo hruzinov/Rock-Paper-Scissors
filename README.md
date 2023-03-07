@@ -2,6 +2,14 @@
 
 My training project of simple game in "Rock-Paper-Scissors"
 
+![](screenshot.jpg)
+
+#### Tech Stack
+
+**Code:** Swift
+
+**UI:** UIKit 
+
 ## ToDo
 
 - Launch Screen
@@ -9,6 +17,7 @@ My training project of simple game in "Rock-Paper-Scissors"
 - Code refactoring
 
 ## License
+
 **MIT License**
 
 Copyright (c) 2022 Evhen Gruzinov
